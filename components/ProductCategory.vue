@@ -10,7 +10,7 @@
           class="absolute inset-0 z-1 focus-visible:outline focus-visible:outline-offset focus-visible:rounded-md"
           href="#"
         />
-        <NuxtImg  :src="image" :alt="title" class="object-cover h-auto rounded-t-md aspect-video" />
+        <img  :src="image" :alt="title" class="object-cover h-auto rounded-t-md aspect-video" />
         <div class="flex flex-col items-start p-4 grow">
           <p class="font-medium typography-text-base text-primary-700">{{ title }}</p>
           <!-- <p class="mt-1 mb-4 font-normal typography-text-sm text-neutral-700">{{ description }}</p> -->
